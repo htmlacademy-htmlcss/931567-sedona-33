@@ -7,7 +7,7 @@
   <body>
     <header class="page-header">
         <div class="page-logo">
-          <a href="#"><img src="#" alt="Логотип"></a>
+          <a href="#"><img src="#" alt="Логотип"/></a>
         </div>
         <nav class="navigation">
           <ul class="navigation-list">
@@ -46,36 +46,31 @@
               <form action="https://echo.htmlacademy.ru/" method="get">
                 <fieldset class="infrastructure-filter">
                   <legend class="infrastructure-title">Инфраструктура:</legend>
-                  <ul>
-                      <li>
+                  <ul class="infrastructure-items">
+                      <li class="infrastructure-item">
                           <label class="infrastructure-checkbox"><input class="checkbox" type="checkbox" name="swimming-pool" checked>Бассейн</label>
                       </li>
-                      <li>
+                      <li class="infrastructure-item">
                         <label class="infrastructure-checkbox"><input class="checkbox" type="checkbox" name="parking" checked>Парковка</label>
                     </li>
-                    <li>
+                    <li class="infrastructure-item">
                         <label class="infrastructure-checkbox"><input class="checkbox" type="checkbox" name="Wi-Fi">Wi-Fi</label>
                     </li>
                   </ul>
                 </fieldset>
                 <fieldset class="housing-filter">
                     <legend class="housing-title">Тип жилья:</legend>
-                    <ul>
-                        <li>
+                    <ul class="housing-items">
+                        <li class="housing-item">
                             <label class="housing-radio"><input class="radio" type="radio" name="hotel-group" value="hotel" checked>Гостиница</label>
                         </li>
-                        <li>
+                        <li class="housing-item">
                           <label class="housing-radio"><input class="radio" type="radio" name="hotel-group" value="motel">Мотель</label>
                       </li>
-                      <li>
+                      <li class="housing-item">
                           <label class="housing-radio"><input class="radio" type="radio" name="hotel-group" value="apartments">Апартаменты</label>
                       </li>
                     </ul>
-                  </fieldset>
-                  <fieldset class="price-filter">
-                    <legend>Стоимость, ₽:</legend>
-                    <label><input type="text" value="0">от</label>
-                    <label><input type="text" value="9000">до</label>
                   </fieldset>
                 </form>
                   <select class="select-control" aria-label="Сортировка">
@@ -102,6 +97,11 @@
                       <p class="hotel-card-price">От 4000 ₽</p>
                       <a class="product-card-button button" href="#">Подробнее</a>
                       <a class="product-card-button button" href="#">В избранное</a>
+                      <img class="hotel-rating-star" src="#" alt="звезда"/>
+                      <img class="hotel-rating-star" src="#" alt="звезда"/>
+                      <img class="hotel-rating-star" src="#" alt="звезда"/>
+                      <img class="hotel-rating-star" src="#" alt="звезда"/>
+                      <p class="hotel-rating-text">Рейтинг: 8,5</p>
                     </li>
                     <li class="hotel-card">
                       <a class="hotel-card-link" href="#">
@@ -112,6 +112,10 @@
                       <p class="hotel-card-price">От 3000 ₽</p>
                       <a class="product-card-button button" href="#">Подробнее</a>
                       <a class="product-card-button button" href="#">В избранное</a>
+                      <img class="hotel-rating-star" src="#" alt="звезда"/>
+                      <img class="hotel-rating-star" src="#" alt="звезда"/>
+                      <img class="hotel-rating-star" src="#" alt="звезда"/>
+                      <p class="hotel-rating-text">Рейтинг: 8,9</p>
                     </li>
                     <li class="hotel-card">
                       <a class="hotel-card-link" href="#">
@@ -122,6 +126,9 @@
                       <p class="hotel-card-price">От 2000 ₽</p>
                       <a class="product-card-button button" href="#">Подробнее</a>
                       <a class="product-card-button button" href="#">В избранном</a>
+                      <img class="hotel-rating-star" src="#" alt="звезда"/>
+                      <img class="hotel-rating-star" src="#" alt="звезда"/>
+                      <p class="hotel-rating-text">Рейтинг: 9,2 </p>
                     </li>
                     <li class="hotel-card">
                       <a class="hotel-card-link" href="#">
@@ -132,6 +139,9 @@
                       <p class="hotel-card-price">От 3000 ₽</p>
                       <a class="product-card-button button" href="#">Подробнее</a>
                       <a class="product-card-button button" href="#">В избранное</a>
+                      <img class="hotel-rating-star" src="#" alt="звезда"/>
+                      <img class="hotel-rating-star" src="#" alt="звезда"/>
+                      <p class="hotel-rating-text">Рейтинг: 9,2 </p>
                     </li>
                   </ul>
                   <button class="button pagination-show-more" type="button">Загрузить ещё</button>
@@ -169,9 +179,9 @@
             <h2 class="distribution-title">Подпишитесь на рассылку</h2>
             <p class="distribution-subtitle">Только полезная информация и никакого спама, честное бойскаутское!</p>
             <form class="distribution-form" action="#" method="post">
-              <label for="newslatter-email">Email</label>
-            <input class="field" type="email" placeholder="Ваш e-mail" name="newslatter-email" id="newslatter-email" required>
-            <button class="newslatter-button" type="submit">Подписаться</button>
+              <label for="newsletter-email">Email</label>
+            <input class="field" type="email" placeholder="Ваш e-mail" name="newsletter-email" id="newsletter-email" required>
+            <button class="newsletter-button" type="submit">Подписаться</button>
             </form>
           </section>
           <footer>
@@ -189,7 +199,7 @@
                 <span class="visually-hidden">YouTube</span>
               </li>
             </ul>
-            <a class="footer-contacts-adress-phone" href=":tel+78128121212">+7 (812) 812-12-12</a>
+            <a class="footer-contacts-adress-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
             <a class="footer-contacts" href="https://htmlacademy.ru/">https://htmlacademy.ru/</a>
           </footer>
       </main>
