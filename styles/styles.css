@@ -6,7 +6,7 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100%;
-    font-family: PT Sans;
+    font-family: PT Sans, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -48,7 +48,7 @@ body{
 .navigation-link {
     display: block;
     padding: 20px 17px;
-    font-family: PT Sans;
+    font-family: PT Sans, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -79,7 +79,7 @@ body{
 .main-index {
 }
 .welome-sedona{
-    background-image: url("../images/index-background2.jpg");
+    background-image: url("../images/index-background.jpg");
     background-repeat: no-repeat;
 }
 .welcome {
@@ -96,7 +96,7 @@ body{
 .caption-title {
     padding-top: 63px;
     padding-bottom: 31px;
-    font-family: PT Sans;
+    font-family: PT Sans, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 30px;
@@ -107,7 +107,7 @@ body{
     margin: 0;
 }
 .caption-list {
-    font-family: PT Sans;
+    font-family: PT Sans, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 22px;
@@ -118,10 +118,6 @@ body{
     margin: 0;
 }
 .advantages {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    list-style: none;
 }
 .advantages-list{
     display: flex;
@@ -131,19 +127,19 @@ body{
     padding: 0;
 }
 .advantages-items {
-    display: flex;
+    width: 400px;
     margin: 0 auto;
     background: #83B3D3;
-    width: 100%;
     list-style: none;
 }
 .advantages-item{
     text-align: center;
 }
 .advantages-title {
+    text-align: center;
     margin-top: 97px;
     margin-bottom: 30px;
-    font-family: PT Sans;
+    font-family: PT Sans, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -154,7 +150,7 @@ body{
     }
 .advantages-description {
     margin: 30px 75px 30px;
-    font-family: PT Sans;
+    font-family: PT Sans, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -174,7 +170,7 @@ body{
     text-align: center;
     width: 400px;
     height: 384px;
-    margin: auto;
+    margin: 0;
     padding: 0;
     list-style: none;
     background: rgba(131, 179, 211, 0.12);
@@ -226,7 +222,7 @@ body{
 }
 .advantages-name{
     margin-top: 23px;
-    font-family: PT Sans;
+    font-family: PT Sans, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -237,7 +233,7 @@ body{
 }
 .advantages-names{
     margin-top: 98px;
-    font-family: PT Sans;
+    font-family: PT Sans, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -248,7 +244,7 @@ body{
 }
 .advantages-text{
     margin-top: 20px;
-    font-family: PT Sans;
+    font-family: PT Sans, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -260,8 +256,8 @@ body{
 }
 .hotelsearch-title {
     margin-top: 91px;
-    margin-bottom: 29;
-    font-family: PT Sans;
+    margin-bottom: 29px;
+    font-family: PT Sans, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 30px;
@@ -272,9 +268,9 @@ body{
     padding: 0;
 }
 .hotelsearch-subtitle {
-    margin-bottom:56;
+    margin-bottom: 56px;
     padding: 0;
-    font-family: PT Sans;
+    font-family: PT Sans, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 22px;
@@ -293,7 +289,7 @@ body{
     text-decoration: none;
 }
 .hotelsearch a{
-    font-family: PT Sans;
+    font-family: PT Sans, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -312,7 +308,7 @@ body{
 .distribution-title {
     padding-top: 94px;
     margin-bottom: 29px;
-    font-family: PT Sans;
+    font-family: PT Sans, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 30px;
@@ -323,7 +319,7 @@ body{
 }
 .distribution-subtitle {
     margin-bottom: 46px;
-    font-family: PT Sans;
+    font-family: PT Sans, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 22px;
@@ -357,7 +353,7 @@ body{
 }
 .footer-contacts-adress-phone {
     display: block;
-    font-family: PT Sans;
+    font-family: PT Sans, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 40px;
@@ -397,7 +393,7 @@ body{
 .filter {
 }
 .Filter-title {
-    font-family: PT Sans;
+    font-family: PT Sans, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 60px;
@@ -407,7 +403,7 @@ body{
 .infrastructure-filter {
 }
 .infrastructure-title {
-    font-family: PT Sans;
+    font-family: PT Sans, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -419,7 +415,7 @@ body{
 .infrastructure-item {
 }
 .infrastructure-checkbox {
-    font-family: PT Sans;
+    font-family: PT Sans, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -432,7 +428,7 @@ body{
 .housing-filter {
 }
 .housing-title {
-    font-family: PT Sans;
+    font-family: PT Sans, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -444,7 +440,7 @@ body{
 .housing-item {
 }
 .housing-radio {
-    font-family: PT Sans;
+    font-family: PT Sans, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
