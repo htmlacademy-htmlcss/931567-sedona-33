@@ -20,11 +20,10 @@ body{
     margin: 0 auto;
 }
 .page-header {
-  /*   margin: 0 auto;
+    margin: 0 auto;
     padding: 0;
     width: 1200px;
-    display: flex; */
-
+    display: flex;
 }
 .page-logo {
     width: 140px;
@@ -52,9 +51,29 @@ body{
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
+    color: #000000;
+    text-decoration: none;
+}
+.navigation-link-button {
+    display: block;
+    padding: 9px 34px;
+    margin-top: 14px;
+    margin-right: 70px;
+    font-family: PT Sans, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #756257;
+    border-radius: 4px;
+    text-decoration: none;
+
 }
 .navigation-user  {
-    max-width: 264px;
+    max-width: 330px;
     margin-left: auto;
     padding: 0;
 }
@@ -132,9 +151,6 @@ body{
     background: #83B3D3;
     list-style: none;
 }
-.advantages-item{
-    text-align: center;
-}
 .advantages-title {
     text-align: center;
     margin-top: 97px;
@@ -192,12 +208,6 @@ body{
     padding: 0;
     list-style: none;
     background: rgba(131, 179, 211, 0.12);
-}
-.advantages-bridge {
-    display: flex;
-    height: 384px;
-    width: 100%;
-    background: #83B3D3;
 }
 .advantages-square {
     text-align: center;
