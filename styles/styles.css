@@ -1,3 +1,18 @@
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/ptsans-400.woff2") format("woff2");
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/ptsans-700.woff2") format("woff2");
+    font-display: swap;
+  }
 html {
     height: 100%;
 }
@@ -800,7 +815,7 @@ background: #FFFFFF;
     padding: 0;
     border: none;
     margin-left: 167px;
-    width: 287;
+    width: 287px;
 }
 .catalog-filter-title {
     margin: 0;
@@ -1850,7 +1865,6 @@ background: #FFFFFF;
   
   .children-box {
     position: relative;
-    grid-column: ;
   }
   
   .children-number {
@@ -1938,7 +1952,7 @@ background: #FFFFFF;
     position: absolute;
     margin-top: 4px;
     margin-left: 50px;
-    width: 25px
+    width: 25px;
     height: 25px;
   }
 .tooltip-toggle:hover + .tooltip-text,
